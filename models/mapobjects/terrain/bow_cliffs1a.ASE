@@ -12,7 +12,7 @@
 *MATERIAL_LIST {
 	*MATERIAL_COUNT 1
 	*MATERIAL 0 {
-		*MATERIAL_NAME "ratty_cliffs01_05_Scene_mso"
+		*MATERIAL_NAME "models/mapobjects/terrain/bow_cliffs1a"
 		*MATERIAL_CLASS "Multi/Sub-Object"
 		*MATERIAL_AMBIENT 0.8000	0.8000	0.8000
 		*MATERIAL_DIFFUSE 0.8000	0.8000	0.8000
@@ -23,7 +23,7 @@
 		*MATERIAL_WIRESIZE 1.0000
 		*NUMSUBMTLS 3
 		*SUBMATERIAL 0 {
-			*MATERIAL_NAME "None_temp_local25_1024"
+			*MATERIAL_NAME "models/mapobjects/terrain/bow_cliffs1a"
 			*MATERIAL_CLASS "Standard"
 			*MATERIAL_AMBIENT 0.0000	0.0000	0.0000
 			*MATERIAL_DIFFUSE 0.8000	0.8000	0.8000
@@ -59,7 +59,7 @@
 			}
 		}
 		*SUBMATERIAL 1 {
-			*MATERIAL_NAME "None_temp_local24_1024"
+			*MATERIAL_NAME "models/mapobjects/terrain/bow_cliffs1a"
 			*MATERIAL_CLASS "Standard"
 			*MATERIAL_AMBIENT 0.0000	0.0000	0.0000
 			*MATERIAL_DIFFUSE 0.8000	0.8000	0.8000
@@ -95,7 +95,7 @@
 			}
 		}
 		*SUBMATERIAL 2 {
-			*MATERIAL_NAME "None_temp_local23_1024"
+			*MATERIAL_NAME "models/mapobjects/terrain/bow_cliffs1a"
 			*MATERIAL_CLASS "Standard"
 			*MATERIAL_AMBIENT 0.0000	0.0000	0.0000
 			*MATERIAL_DIFFUSE 0.8000	0.8000	0.8000

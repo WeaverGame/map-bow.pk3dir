@@ -1,0 +1,26 @@
+models/mapobjects/terrain/bow_cliffs1a
+{
+    qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
+    
+	diffusemap         models/mapobjects/terrain/rattycliff_d.png
+	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
+	bumpmap            models/mapobjects/terrain/rattycliff_na.png
+}
+
+models/mapobjects/terrain/bow_cliffs1b
+{
+    qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
+    
+	diffusemap         models/mapobjects/terrain/rattycliff_d.png
+	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
+	bumpmap            models/mapobjects/terrain/rattycliff_nb.png
+}
+
+models/mapobjects/terrain/bow_cliffs1c
+{
+    qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
+    
+	diffusemap         models/mapobjects/terrain/rattycliff_d.png
+	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
+	bumpmap            models/mapobjects/terrain/rattycliff_nc.png
+}
