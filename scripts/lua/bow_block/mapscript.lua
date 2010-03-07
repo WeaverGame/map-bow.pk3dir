@@ -1,4 +1,5 @@
 -- constants
+TEAM_FREE = 0
 TEAM_RED = 1
 TEAM_BLUE = 2
 
@@ -17,9 +18,9 @@ UCGFlagLocked = 1
 -- called when game inits
 function et_InitGame( levelTime, randomSeed, restart )
 	et.G_Printf("bow_block Mapscript Loaded: et_InitGame")
-	et.G_Printf("VMnum=%d VMname=mapscript", et.FindSelf())
+	et.G_Printf("VMnum=%d VMname=mapscript\n", et.FindSelf())
 	et.RegisterModname("mapscript")
-
+	
 	spawnGroupBlue = 1
 	
 	game.SpawnGroupBlueEnable(1)
@@ -30,6 +31,10 @@ function et_InitGame( levelTime, randomSeed, restart )
 	
 	game.SpawnGroupRedEnable(1)
 	game.SpawnGroupRedDisable(2)
+	
+	game.SetDefender(TEAM_RED)	--Red is defending
+	game.SetWinner(TEAM_RED)	--Red will win if the clock runs out
+	game.SetTimeLimit(1)		--15 min
 	
 	LTFFlagOwner = TEAM_RED
 	LTFFlagLocked = 0
@@ -206,7 +211,8 @@ end
 
 function CapFlagUse(self, other, activator)
 	et.G_Printf("Objective Captured!\n")
-	
+	et.G_Print("Blue team is the winner\n")
+	game.SetWinner(TEAM_BLUE)
 	et.G_Print("Ending the round\n")
 	game.EndRound()
 end
