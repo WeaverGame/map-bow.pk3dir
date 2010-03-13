@@ -33,7 +33,6 @@ function et_InitGame( levelTime, randomSeed, restart )
 	game.SpawnGroupRedDisable(2)
 	
 	game.SetDefender(TEAM_RED)	--Red is defending
-	game.SetWinner(TEAM_RED)	--Red will win if the clock runs out
 	game.SetTimeLimit(1)		--15 min
 	
 	LTFFlagOwner = TEAM_RED
