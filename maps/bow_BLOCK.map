@@ -2,8 +2,8 @@ Version 2
 // entity 0
 {
 "classname" "worldspawn"
-"editor_drLastCameraPos" "-1883.11 -1181.14 86.6702"
-"editor_drLastCameraAngle" "-4.2 126.6 0"
+"editor_drLastCameraPos" "-2704.19 5467.69 -217.976"
+"editor_drLastCameraAngle" "-1.5 226.2 0"
 // primitive 0
 {
 brushDef3
@@ -26802,10 +26802,10 @@ brushDef3
 {
 brushDef3
 {
-( 0.1240347345892085 0 0.9922778767136677 -23.81466904121518 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
+( 0.1240347345892085 0 0.9922778767136677 -23.81466904121552 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 1 0 -64 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 1 0 0 -352 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
-( -0.1240347345892085 0 -0.9922778767136677 7.938223013738773 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
+( -0.1240347345892085 0 -0.9922778767136677 7.938223013738972 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 -1 0 -64 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( -1 0 0 224 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 }
@@ -26816,7 +26816,7 @@ brushDef3
 {
 ( -0.1240347345892085 0 0.9922778767136677 -23.81466904117258 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 1 0 -64 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
-( 0.1240347345892085 0 -0.9922778767136677 7.938223013782139 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
+( 0.1240347345892085 0 -0.9922778767136677 7.938223013782427 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 -1 0 -64 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( -1 0 0 -352 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 1 0 0 224 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
@@ -26838,7 +26838,7 @@ brushDef3
 {
 brushDef3
 {
-( -0.1240347345892085 0 0.9922778767136677 -63.50578410968782 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
+( -0.1240347345892085 0 0.9922778767136677 -63.50578410968794 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 1 0 -64 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0.1240347345892085 0 -0.9922778767136677 55.56756109596888 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 -1 0 56 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
@@ -26850,7 +26850,7 @@ brushDef3
 {
 brushDef3
 {
-( 0.1240347345892085 0 0.9922778767136677 -63.50578410977081 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
+( 0.1240347345892085 0 0.9922778767136677 -63.50578410977114 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 1 0 -64 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 1 0 0 -352 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( -0.1240347345892085 0 -0.9922778767136677 55.56756109596748 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
@@ -26886,7 +26886,7 @@ brushDef3
 {
 brushDef3
 {
-( -0.1240347345892085 0 0.9922778767136677 -63.50578410968782 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
+( -0.1240347345892085 0 0.9922778767136677 -63.50578410968794 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 1 0 56 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0.1240347345892085 0 -0.9922778767136677 55.56756109596888 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 -1 0 -64 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
@@ -26898,7 +26898,7 @@ brushDef3
 {
 brushDef3
 {
-( 0.1240347345892085 0 0.9922778767136677 -63.50578410977091 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
+( 0.1240347345892085 0 0.9922778767136677 -63.5057841097712 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 0 1 0 56 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( 1 0 0 -352 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
 ( -0.1240347345892085 0 -0.9922778767136677 55.56756109596748 ) ( ( 0.00390625 0 -0 ) ( -0 0.00390625 0 ) ) "textures/trak/trak8/stonebase" 0 0 0
@@ -28826,10 +28826,10 @@ brushDef3
 {
 ( 0 0 1 -32 ) ( ( 0.0078125 0 1023.75 ) ( 0 0.0078125 0 ) ) "textures/trak/trak8/stonewall1" 0 0 0
 ( 0 0 -1 -32 ) ( ( 0.125 0 60 ) ( 0 0.125 0 ) ) "textures/common/caulk" 0 0 0
-( -0.7071067811865476 0.7071067811865476 0 -90.50966799280936 ) ( ( 0.0078125 0 0.25 ) ( 0 0.0078125 1022.75 ) ) "textures/trak/trak8/stonewall1" 0 0 0
+( -0.7071067811865476 0.7071067811865476 0 -90.50966799281252 ) ( ( 0.0078125 0 0.25 ) ( 0 0.0078125 1022.75 ) ) "textures/trak/trak8/stonewall1" 0 0 0
 ( 1 0 0 64 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 -1 0 -0 ) ( ( 0.125 0 0 ) ( 0 0.125 2 ) ) "textures/common/caulk" 0 0 0
-( 0.7071067811865476 -0.7071067811865476 0 79.1959594938278 ) ( ( 0.0078125 0 0.5151650429449554 ) ( 0 0.0078125 1022.75 ) ) "textures/trak/trak8/stonewall1" 0 0 0
+( 0.7071067811865476 -0.7071067811865476 0 79.19595949383098 ) ( ( 0.0078125 0 0.5151650429449554 ) ( 0 0.0078125 1022.75 ) ) "textures/trak/trak8/stonewall1" 0 0 0
 }
 }
 // primitive 4
@@ -28854,7 +28854,7 @@ brushDef3
 ( 0 0 -1 -32 ) ( ( 0.0625 0 0 ) ( 0 0.0625 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 -1 0 -64 ) ( ( 0.0625 0 0 ) ( 0 0.0625 40 ) ) "textures/common/caulk" 0 0 0
 ( -1 0 0 -112 ) ( ( 0.0625 0 0 ) ( 0 0.0625 40 ) ) "textures/common/caulk" 0 0 0
-( -0.7071067811865476 0.7071067811865476 0 -79.19595949382462 ) ( ( 0.0625 0 0 ) ( 0 0.0625 40 ) ) "textures/common/caulk" 0 0 0
+( -0.7071067811865476 0.7071067811865476 0 -79.1959594938278 ) ( ( 0.0625 0 0 ) ( 0 0.0625 40 ) ) "textures/common/caulk" 0 0 0
 ( 0.7071067811865476 0.7071067811865476 0 -79.1959594928926 ) ( ( 0.0625 0 0 ) ( 0 0.0625 40 ) ) "textures/common/caulk" 0 0 0
 }
 }
@@ -34169,7 +34169,7 @@ brushDef3
 {
 ( 0 0 1 -36 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 -1 0 -80 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
-( -0.5773502691896258 0.5773502691896258 0.5773502691896258 -168.5862786040421 ) ( ( 0.00048828125 0 -0 ) ( -0 0.00048828125 0 ) ) "textures/trak/trak8/cobblestone" 0 0 0
+( -0.5773502691896258 0.5773502691896258 0.5773502691896258 -168.5862786040459 ) ( ( 0.00048828125 0 -0 ) ( -0 0.00048828125 0 ) ) "textures/trak/trak8/cobblestone" 0 0 0
 ( 0 0 -1 -28 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 0.7071067811865476 0.7071067811865476 19.79898987322349 ) ( ( 0.00048828125 0 -0 ) ( -0 0.00048828125 0 ) ) "textures/trak/trak8/cobblestone" 0 0 0
 ( 0.3917616854995135 0.3917616854995135 0.832493581686466 114.198531323108 ) ( ( 0.00048828125 0 -0 ) ( -0 0.00048828125 0 ) ) "textures/trak/trak8/cobblestone" 0 0 0
@@ -34313,7 +34313,7 @@ brushDef3
 brushDef3
 {
 ( 0 0 1 8 ) ( ( 0.000244140625 0 -0 ) ( -0 0.000244140625 0 ) ) "textures/trak/trak8/wood1" 0 0 0
-( 0.894427190999916 -0.447213595499958 0 35.77708764051374 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
+( 0.894427190999916 -0.447213595499958 0 35.7770876405167 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 -1 0 368 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 -24 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( -0.894427190999916 -0.447213595499958 0 64.39875775198983 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
@@ -34399,7 +34399,7 @@ brushDef3
 ( 1 0 0 -400 ) ( ( 0.000244140625 0 -0 ) ( -0 0.000244140625 0 ) ) "textures/trak/trak8/wood1" 0 0 0
 ( -0.7071067811865476 -0.7071067811865476 0 362.038671967508 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 -24 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
-( -0.894427190999916 0.447213595499958 0 -35.77708764051374 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
+( -0.894427190999916 0.447213595499958 0 -35.7770876405167 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0.7071067811865476 0.7071067811865476 0 -395.979797464468 ) ( ( 0.000244140625 0 -0 ) ( -0 0.000244140625 0 ) ) "textures/trak/trak8/wood1" 0 0 0
 }
 }
@@ -35100,7 +35100,7 @@ brushDef3
 ( -0.7071067811865476 0.7071067811865476 0 882.4692629208165 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( -0.7071067811865476 -0.7071067811865476 0 780.6458864299458 ) ( ( 0.125 0 0 ) ( 0 0.125 16 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 128 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/common/caulk" 0 0 0
-( 0.7071067811865476 -0.7071067811865476 0 -995.6063479106773 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
+( 0.7071067811865476 -0.7071067811865476 0 -995.6063479106778 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 0.7071067811865476 0.7071067811865476 0 -1052.174890405583 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 }
 }
@@ -35156,7 +35156,7 @@ brushDef3
 {
 brushDef3
 {
-( -0.242535625036333 0 0.970142500145332 -242.5356250363506 ) ( ( 0.0009765625 0 0 ) ( 0 0.0009765625 0.06164962023950898 ) ) "textures/odin/walls/rockwall2" 0 0 0
+( -0.242535625036333 0 0.970142500145332 -242.5356250363516 ) ( ( 0.0009765625 0 0 ) ( 0 0.0009765625 0.06164962023950898 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 0 1 0 -184 ) ( ( 0.125 0 8 ) ( 0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( -1 0 0 -1512 ) ( ( 0.125 0 0 ) ( 0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 -256 ) ( ( 0.125 0 0 ) ( 0 0.125 8 ) ) "textures/common/caulk" 0 0 0
@@ -35297,7 +35297,7 @@ brushDef3
 ( -0.8921719615196279 0.07096822421178857 0.4460859807598139 -228.3960221490247 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 0 1 0 -352 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 -0.6823182503600112 -0.731055268242869 -175.0633682352241 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
-( -0 -0.95087143148672 -0.3095860474607926 -158.8618689259629 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
+( -0 -0.95087143148672 -0.3095860474607926 -158.8618689259653 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( -0.977778439584969 -0.2096409384704791 0 -176.5176701921437 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 1 0 0 -0 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 }
@@ -35309,7 +35309,7 @@ brushDef3
 ( 0.8921719615196279 0.07096822421178857 0.4460859807598139 -228.3960221490256 ) ( ( -0.0009765625000000011 -2.681066927676187e-020 1023.851321909766 ) ( 0 0.0009765625 1023.166222481492 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 0 1 0 -352 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( -0 -0.6823182503600112 -0.731055268242869 -175.0633682352245 ) ( ( -0.0009765625 0 1.875 ) ( 0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
-( 0 -0.95087143148672 -0.3095860474607926 -158.8618689259674 ) ( ( -0.0009765625 0 1.875 ) ( 0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
+( 0 -0.95087143148672 -0.3095860474607926 -158.8618689259698 ) ( ( -0.0009765625 0 1.875 ) ( 0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 0.977778439584969 -0.2096409384704791 0 -176.5176701921472 ) ( ( -0.0009765625 0 0.3930767596321484 ) ( 0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( -1 0 0 -0 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 }
@@ -35376,7 +35376,7 @@ brushDef3
 ( 1 0 0 64 ) ( ( 0.125 0 32 ) ( 0 0.125 16 ) ) "textures/common/caulk" 0 0 0
 ( 0 1 0 -0 ) ( ( 0.125 0 32 ) ( 0 0.125 16 ) ) "textures/common/caulk" 0 0 0
 ( -0.7071067811865476 0.7071067811865476 0 -135.7645019878178 ) ( ( 0.125 0 56.23549801218285 ) ( 0 0.125 16 ) ) "textures/common/caulk" 0 0 0
-( 0.4082482904638631 -0.4082482904638631 -0.8164965809277262 78.38367176949603 ) ( ( 0.0078125 0 -0 ) ( -0 0.0078125 0 ) ) "textures/trak/trak8/stonewall1" 0 0 0
+( 0.4082482904638631 -0.4082482904638631 -0.8164965809277262 78.38367176949853 ) ( ( 0.0078125 0 -0 ) ( -0 0.0078125 0 ) ) "textures/trak/trak8/stonewall1" 0 0 0
 }
 }
 // primitive 5
@@ -35412,7 +35412,7 @@ brushDef3
 ( -1 0 0 -63.99999999999909 ) ( ( -0.125 0 48 ) ( 0 0.125 8 ) ) "textures/common/caulk" 0 0 0
 ( 0 -1 0 -0 ) ( ( -0.125 0 32 ) ( 0 0.125 8 ) ) "textures/common/caulk" 0 0 0
 ( 0.7071067811865476 -0.7071067811865476 0 -45.25483399593652 ) ( ( -0.125 0 7.431457505076196 ) ( 0 0.125 16 ) ) "textures/common/caulk" 0 0 0
-( -0.4082482904638631 0.4082482904638631 -0.8164965809277262 26.12789058924955 ) ( ( 0.0078125 0 -0 ) ( -0 0.0078125 0 ) ) "textures/trak/trak8/stonewall1" 0 0 0
+( -0.4082482904638631 0.4082482904638631 -0.8164965809277262 26.1278905892466 ) ( ( 0.0078125 0 -0 ) ( -0 0.0078125 0 ) ) "textures/trak/trak8/stonewall1" 0 0 0
 }
 }
 // primitive 8
@@ -35961,7 +35961,7 @@ brushDef3
 ( -0.7071067811865476 0.7071067811865476 0 695.7930726876227 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 1 0 0 -96 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 -64 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
-( 0.6963106238227914 -0.6963106238227914 0.1740776559556979 -718.5925637852134 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
+( 0.6963106238227914 -0.6963106238227914 0.1740776559556979 -718.5925637852167 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 0 -1 0 -968.0000000000009 ) ( ( 0.125 0 48 ) ( 0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 }
 }
@@ -36008,7 +36008,7 @@ brushDef3
 ( -0.7071067811865476 0.7071067811865476 0 1103.086578651023 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( -1 0 0 672 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 ( 0 0 -1 -64 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
-( 0.6963106238227914 -0.6963106238227914 0.1740776559556979 -1119.667483107136 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
+( 0.6963106238227914 -0.6963106238227914 0.1740776559556979 -1119.66748310714 ) ( ( 0.0009765625 0 -0 ) ( -0 0.0009765625 0 ) ) "textures/odin/walls/rockwall2" 0 0 0
 ( 0 1 0 120 ) ( ( 0.125 0 -0 ) ( -0 0.125 0 ) ) "textures/common/caulk" 0 0 0
 }
 }
@@ -37410,4 +37410,409 @@ brushDef3
 "name" "func_static_1055"
 "model" "models/mapobjects/props/flag_long1.ASE"
 "origin" "-1536 -864 24"
+}
+// entity 1301
+{
+"classname" "func_static"
+"name" "func_static_1060"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/door1.ASE"
+"origin" "-4064 5192 -450.125"
+"solid" "1"
+}
+// entity 1302
+{
+"classname" "func_static"
+"name" "func_static_1062"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/front1.ASE"
+"origin" "-3840 5064 -450.125"
+"solid" "1"
+}
+// entity 1303
+{
+"classname" "func_static"
+"name" "func_static_1063"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/front2.ASE"
+"origin" "-3648 5064 -450.125"
+"solid" "1"
+}
+// entity 1304
+{
+"classname" "func_static"
+"name" "func_static_1064"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/front3.ASE"
+"origin" "-3456 5064 -450.125"
+"solid" "1"
+}
+// entity 1305
+{
+"classname" "func_static"
+"name" "func_static_1065"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/corner.ASE"
+"origin" "-2944 4872 -449.125"
+"solid" "1"
+}
+// entity 1306
+{
+"classname" "func_static"
+"name" "func_static_1066"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/side1.ASE"
+"origin" "-2752 4680 -449.125"
+"solid" "1"
+}
+// entity 1307
+{
+"classname" "func_static"
+"name" "func_static_1067"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/side2_balcony.ASE"
+"origin" "-2752 4296 -449.125"
+"solid" "1"
+}
+// entity 1308
+{
+"classname" "func_static"
+"name" "func_static_1068"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/backyard.ASE"
+"origin" "-3503.74 3727.86 -448.875"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+"solid" "1"
+}
+// entity 1309
+{
+"classname" "func_static"
+"name" "func_static_1069"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/bridge.ASE"
+"origin" "-3839.75 3744.26 -161.375"
+"solid" "1"
+}
+// entity 1310
+{
+"classname" "func_static"
+"name" "func_static_1070"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/backyard2.ASE"
+"origin" "-3951.89 4266.9 -449.375"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+"solid" "1"
+}
+// entity 1311
+{
+"classname" "func_static"
+"name" "func_static_1071"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/backyard3.ASE"
+"origin" "-4399.88 3727.99 -448.625"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+"solid" "1"
+}
+// entity 1312
+{
+"classname" "func_static"
+"name" "func_static_1072"
+"clipModel" "1"
+"model" "models/mapobjects/midcity/roofcap2.ASE"
+"origin" "-3840 5037.25 -15.375"
+"solid" "1"
+}
+// entity 1313
+{
+"classname" "func_static"
+"name" "func_static_1073"
+"model" "models/mapobjects/midcity/roofcap2_m.ASE"
+"origin" "-4064 5037.25 -15.375"
+}
+// entity 1314
+{
+"classname" "func_static"
+"name" "func_static_1074"
+"model" "models/mapobjects/midcity/bbuild_balcony1.ASE"
+"origin" "-4063.75 3336.63 -449.375"
+}
+// entity 1315
+{
+"classname" "func_static"
+"name" "func_static_1075"
+"model" "models/mapobjects/midcity/bbuild_balcony2.ASE"
+"origin" "-4063.75 3336.63 -449.375"
+}
+// entity 1316
+{
+"classname" "func_static"
+"name" "func_static_1076"
+"model" "models/mapobjects/midcity/bbuild_back.ASE"
+"origin" "-4063.75 2840.63 -449.375"
+}
+// entity 1317
+{
+"classname" "func_static"
+"name" "func_static_1077"
+"model" "models/mapobjects/midcity/bbuild_side.ASE"
+"origin" "-3519.75 2824.63 -449.375"
+}
+// entity 1318
+{
+"classname" "func_static"
+"name" "func_static_1080"
+"model" "models/mapobjects/midcity/bbuild_side_m.ASE"
+"origin" "-4415.75 2840.63 -449.375"
+}
+// entity 1319
+{
+"classname" "func_static"
+"name" "func_static_1081"
+"model" "models/mapobjects/midcity/bbuild_front.ASE"
+"origin" "-3519.75 2184.63 -449.375"
+}
+// entity 1320
+{
+"classname" "func_static"
+"name" "func_static_1084"
+"model" "models/mapobjects/midcity/front1_m.ASE"
+"origin" "-4256 5064 -449"
+}
+// entity 1321
+{
+"classname" "func_static"
+"name" "func_static_1085"
+"model" "models/mapobjects/midcity/front2_m.ASE"
+"origin" "-4448 5064 -449"
+}
+// entity 1322
+{
+"classname" "func_static"
+"name" "func_static_1088"
+"model" "models/mapobjects/midcity/front3_m.ASE"
+"origin" "-4767.87 5064 -449"
+}
+// entity 1323
+{
+"classname" "func_static"
+"name" "func_static_1086"
+"model" "models/mapobjects/midcity/side2_balcony_m.ASE"
+"origin" "-5152.01 4295.89 -448.625"
+}
+// entity 1324
+{
+"classname" "func_static"
+"name" "func_static_1087"
+"model" "models/mapobjects/midcity/front3.ASE"
+"origin" "-4504.35 3727.99 -448.625"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1325
+{
+"classname" "func_static"
+"name" "func_static_1078"
+"model" "models/mapobjects/midcity/back1_m.ASE"
+"origin" "-4398.15 3727.99 -448.625"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1326
+{
+"classname" "func_static"
+"name" "func_static_1079"
+"model" "models/mapobjects/midcity/bbuild_roof.ASE"
+"origin" "-4399.75 2184.63 47.75"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1327
+{
+"classname" "func_static"
+"name" "func_static_1092"
+"model" "models/mapobjects/midcity/bbuild_roof_fb.ASE"
+"origin" "-3535.75 2184.63 46.625"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1328
+{
+"classname" "func_static"
+"name" "func_static_1096"
+"model" "models/mapobjects/midcity/bbuild_roof_fb.ASE"
+"origin" "-4399.75 2824.63 47.75"
+}
+// entity 1329
+{
+"classname" "func_static"
+"name" "func_static_1097"
+"model" "models/mapobjects/midcity/bbuild_balcony3.ASE"
+"origin" "-3519.75 3336.63 -449.5"
+}
+// entity 1330
+{
+"classname" "func_static"
+"name" "func_static_1098"
+"model" "models/mapobjects/midcity/bbuild_balcony_floor.ASE"
+"origin" "-3551.75 3304.63 -169.375"
+}
+// entity 1331
+{
+"classname" "func_static"
+"name" "func_static_1089"
+"model" "models/mapobjects/midcity/bbuild_balcony_roof.ASE"
+"origin" "-3535.75 3319.63 14.125"
+}
+// entity 1332
+{
+"classname" "func_static"
+"name" "func_static_1090"
+"model" "models/mapobjects/midcity/corner.ASE"
+"origin" "-4960 5216 -448.5"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1333
+{
+"classname" "func_static"
+"name" "func_static_1091"
+"model" "models/mapobjects/midcity/front3.ASE"
+"origin" "-4768 5728 -449"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1334
+{
+"classname" "func_static"
+"name" "func_static_1093"
+"model" "models/mapobjects/midcity/front1.ASE"
+"origin" "-4768 6208 -449"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1335
+{
+"classname" "func_static"
+"name" "func_static_1094"
+"model" "models/mapobjects/midcity/front3_m.ASE"
+"origin" "-5152 5024 -449"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1336
+{
+"classname" "func_static"
+"name" "func_static_1095"
+"model" "models/mapobjects/midcity/back1.ASE"
+"origin" "-4768 5832 -449"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1337
+{
+"classname" "func_static"
+"name" "func_static_1099"
+"model" "models/mapobjects/midcity/door3_cbuild.ASE"
+"origin" "-4768 5832 -449"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1338
+{
+"classname" "func_static"
+"name" "func_static_1100"
+"model" "models/mapobjects/midcity/bbuild_side.ASE"
+"origin" "-3239.75 2536.63 -448.375"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1339
+{
+"classname" "func_static"
+"name" "func_static_1101"
+"model" "models/mapobjects/midcity/door4_mbuild.ASE"
+"origin" "-3240 3408 -448"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1340
+{
+"classname" "func_static"
+"name" "func_static_1102"
+"model" "models/mapobjects/midcity/mbuild_back1.ASE"
+"origin" "-2872 3416 -448"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1341
+{
+"classname" "func_static"
+"name" "func_static_1107"
+"model" "models/mapobjects/midcity/door5_mbuild.ASE"
+"origin" "-2256 3416 -448"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1342
+{
+"classname" "func_static"
+"name" "func_static_1108"
+"model" "models/mapobjects/midcity/door6_mbuild.ASE"
+"origin" "-3240 2536 -448"
+}
+// entity 1343
+{
+"classname" "func_static"
+"name" "func_static_1109"
+"model" "models/mapobjects/midcity/mbuild_roof_fb2.ASE"
+"origin" "-3223 2975.88 48"
+}
+// entity 1344
+{
+"classname" "func_static"
+"name" "func_static_1103"
+"model" "models/mapobjects/midcity/mbuild_roof2.ASE"
+"origin" "-3223 3423.75 48"
+}
+// entity 1345
+{
+"classname" "func_static"
+"name" "func_static_1104"
+"model" "models/mapobjects/midcity/mbuild_roof_fb2.ASE"
+"origin" "-2288 2975.88 48"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1346
+{
+"classname" "func_static"
+"name" "func_static_1105"
+"model" "models/mapobjects/midcity/front2_roof.ASE"
+"origin" "-4696 6208 -60"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1347
+{
+"classname" "func_static"
+"name" "func_static_1106"
+"model" "models/mapobjects/midcity/front2_roof.ASE"
+"origin" "-4696 5824 -60"
+"rotation" "0 -1 0 1 0 0 0 0 1"
+}
+// entity 1348
+{
+"classname" "func_static"
+"name" "func_static_1110"
+"model" "models/mapobjects/midcity/corner_roof_m.ASE"
+"origin" "-5096 5012 -60"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1349
+{
+"classname" "func_static"
+"name" "func_static_1111"
+"model" "models/mapobjects/midcity/front2_roof.ASE"
+"origin" "-5096 5012 -60"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
+}
+// entity 1350
+{
+"classname" "func_static"
+"name" "func_static_1112"
+"model" "models/mapobjects/midcity/corner.ASE"
+"origin" "-4959.88 4872 -449"
+"rotation" "0 1 0 -1 0 0 0 0 1"
+}
+// entity 1351
+{
+"classname" "func_static"
+"name" "func_static_1082"
+"model" "models/mapobjects/midcity/side1_m.ASE"
+"origin" "-5151.9 4296.02 -448.75"
+"rotation" "-1 0 0 0 -1 0 0 0 1"
 }
