@@ -1,0 +1,16 @@
+// Map Specific Graphics
+
+// Level shots
+// Shader name should be "levelshots/<NAME OF BSP>"
+// jpg format is recommended here.
+
+levelshots/bow_block
+{
+	nopicmip
+	{
+		map levelshots/bow_block.jpg
+		rgbGen identity
+	}
+}
+
+//
