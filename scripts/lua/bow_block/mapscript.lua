@@ -15,6 +15,7 @@ LTFFlagLocked = 0
 UCGFlagOwner = TEAM_FREE
 UCGFlagLocked = 1
 
+
 -- called when game inits
 function et_InitGame( levelTime, randomSeed, restart )
 	et.G_Printf("bow_block Mapscript Loaded: et_InitGame")
@@ -23,14 +24,14 @@ function et_InitGame( levelTime, randomSeed, restart )
 	
 	spawnGroupBlue = 1
 	
-	game.SpawnGroupBlueEnable(1)
-	game.SpawnGroupBlueDisable(2)
-	game.SpawnGroupBlueDisable(3)
+	game.SpawnGroup(TEAM_BLUE, 1, 1)
+	game.SpawnGroup(TEAM_BLUE, 2, 0)
+	game.SpawnGroup(TEAM_BLUE, 3, 0)
 	
 	spawnGroupRed = 1
 	
-	game.SpawnGroupRedEnable(1)
-	game.SpawnGroupRedDisable(2)
+	game.SpawnGroup(TEAM_RED, 1, 1)
+	game.SpawnGroup(TEAM_RED, 2, 0)
 	
 	game.SetDefender(TEAM_RED)	--Red is defending
 	game.SetTimeLimit(1)		--15 min
@@ -84,23 +85,23 @@ function LTFFlagTouch(self, other)
 	if (team==TEAM_RED) then
 		spawnGroupBlue = 1
 		
-		game.SpawnGroupBlueEnable(1)
-		game.SpawnGroupBlueDisable(2)
+		game.SpawnGroup(TEAM_BLUE, 1, 1)
+		game.SpawnGroup(TEAM_BLUE, 2, 0)
 		
 		spawnGroupRed = 1
 		
-		game.SpawnGroupRedEnable(1)
-		game.SpawnGroupRedDisable(2)
+		game.SpawnGroup(TEAM_RED, 1, 1)
+		game.SpawnGroup(TEAM_RED, 2, 0)
 	else
 		spawnGroupBlue = 2
 		
-		game.SpawnGroupBlueEnable(2)
-		game.SpawnGroupBlueDisable(1)
+		game.SpawnGroup(TEAM_BLUE, 2, 1)
+		game.SpawnGroup(TEAM_BLUE, 1, 0)
 		
 		spawnGroupRed = 2
 		
-		game.SpawnGroupRedEnable(2)
-		game.SpawnGroupRedDisable(1)
+		game.SpawnGroup(TEAM_RED, 2, 1)
+		game.SpawnGroup(TEAM_RED, 1, 0)
 	end
 	
 	--et.G_Printf("LTFFlagTouch3\n")
@@ -114,21 +115,21 @@ function PhaseOne_End()
 	
 	if(spawnGroupBlue==3) then
 		--attackers already have second forward spawn
-		game.SpawnGroupBlueEnable(3)
-		game.SpawnGroupBlueDisable(2)
-		game.SpawnGroupBlueDisable(1)
+		game.SpawnGroup(TEAM_BLUE, 3, 1)
+		game.SpawnGroup(TEAM_BLUE, 2, 0)
+		game.SpawnGroup(TEAM_BLUE, 1, 0)
 	else
 		--attackers do not have second forward spawn
 		spawnGroupBlue = 2
-		game.SpawnGroupBlueDisable(3)
-		game.SpawnGroupBlueEnable(2)
-		game.SpawnGroupBlueDisable(1)
+		game.SpawnGroup(TEAM_BLUE, 3, 0)
+		game.SpawnGroup(TEAM_BLUE, 2, 1)
+		game.SpawnGroup(TEAM_BLUE, 1, 0)
 	end
-		
+	
 	spawnGroupRed = 2
 	
-	game.SpawnGroupRedEnable(2)
-	game.SpawnGroupRedDisable(1)
+	game.SpawnGroup(TEAM_RED, 2, 1)
+	game.SpawnGroup(TEAM_RED, 1, 0)
 	
 	UCGFlagLocked = 0
 end
@@ -154,13 +155,13 @@ function UCGFlagTouch(self, other)
 	if (team==TEAM_RED) then
 		spawnGroupBlue = 2
 		
-		game.SpawnGroupBlueEnable(2)
-		game.SpawnGroupBlueDisable(3)
+		game.SpawnGroup(TEAM_BLUE, 2, 1)
+		game.SpawnGroup(TEAM_BLUE, 3, 0)
 	else
 		spawnGroupBlue = 3
 		
-		game.SpawnGroupBlueEnable(3)
-		game.SpawnGroupBlueDisable(2)
+		game.SpawnGroup(TEAM_BLUE, 3, 1)
+		game.SpawnGroup(TEAM_BLUE, 2, 0)
 	end
 	
 	--et.G_Printf("UCGFlagTouch3\n")
@@ -195,14 +196,14 @@ function PhaseTwo_End()
 	
 	spawnGroupBlue=3
 	
-	game.SpawnGroupBlueEnable(3)
-	game.SpawnGroupBlueDisable(2)
-	game.SpawnGroupBlueDisable(1)
-		
+	game.SpawnGroup(TEAM_BLUE, 3, 1)
+	game.SpawnGroup(TEAM_BLUE, 2, 0)
+	game.SpawnGroup(TEAM_BLUE, 1, 0)
+	
 	spawnGroupRed = 2
 	
-	game.SpawnGroupRedEnable(2)
-	game.SpawnGroupRedDisable(1)
+	game.SpawnGroup(TEAM_RED, 2, 1)
+	game.SpawnGroup(TEAM_RED, 1, 0)
 end
 
 -- Final objective
