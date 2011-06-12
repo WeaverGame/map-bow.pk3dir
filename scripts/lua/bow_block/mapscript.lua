@@ -12,8 +12,10 @@ spawnGroupRed = 1
 spawnGroupBlue = 1
 LTFFlagOwner = TEAM_RED
 LTFFlagLocked = 0
+LTFFlagEnt = -1
 UCGFlagOwner = TEAM_FREE
 UCGFlagLocked = 1
+UCGFlagEnt = -1
 
 
 -- called when game inits
@@ -34,12 +36,12 @@ function et_InitGame( levelTime, randomSeed, restart )
 	game.SpawnGroup(TEAM_RED, 2, 0)
 	
 	game.SetDefender(TEAM_RED)	--Red is defending
-	game.SetTimeLimit(1)		--15 min
+	game.SetTimeLimit(15)		--15 min
 	
 	LTFFlagOwner = TEAM_RED
 	LTFFlagLocked = 0
 	UCGFlagOwner = TEAM_FREE
-	UCGFlagLocked = 1
+	UCGFlagLocked = 0
 end
 
 --Lower Town Fortress
@@ -81,6 +83,7 @@ function LTFFlagTouch(self, other)
 	
 	et.G_Printf("The Lower Fortress Flag has been claimed by %d!\n", team)
 	LTFFlagOwner = team
+	et.SetModelindex(self, team)
 	
 	if (team==TEAM_RED) then
 		spawnGroupBlue = 1
@@ -107,10 +110,15 @@ function LTFFlagTouch(self, other)
 	--et.G_Printf("LTFFlagTouch3\n")
 end
 
+function LTFFlagSpawn(self)
+	LTFFlagEnt = self
+end
+
 function PhaseOne_End()
 	et.G_Printf("The Lower Fortress has fallen!\n")
 	
 	LTFFlagOwner = TEAM_BLUE
+	et.SetModelindex(LTFFlagEnt, TEAM_BLUE)
 	LTFFlagLocked = 1
 	
 	if(spawnGroupBlue==3) then
@@ -157,14 +165,20 @@ function UCGFlagTouch(self, other)
 		
 		game.SpawnGroup(TEAM_BLUE, 2, 1)
 		game.SpawnGroup(TEAM_BLUE, 3, 0)
+		et.SetModelindex(self, TEAM_FREE)
 	else
 		spawnGroupBlue = 3
 		
 		game.SpawnGroup(TEAM_BLUE, 3, 1)
 		game.SpawnGroup(TEAM_BLUE, 2, 0)
+		et.SetModelindex(self, TEAM_BLUE)
 	end
 	
 	--et.G_Printf("UCGFlagTouch3\n")
+end
+
+function UCGFlagSpawn(self)
+	UCGFlagEnt = self
 end
 
 --Upper Citadel
@@ -192,6 +206,7 @@ function PhaseTwo_End()
 	et.G_Printf("The Upper Citadel is under attack!\n")
 	
 	UCGFlagOwner = TEAM_BLUE
+	et.SetModelindex(UCGFlagEnt, TEAM_BLUE)
 	UCGFlagLocked = 1
 	
 	spawnGroupBlue=3
