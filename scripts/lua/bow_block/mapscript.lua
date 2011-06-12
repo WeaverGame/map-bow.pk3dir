@@ -205,6 +205,10 @@ end
 function PhaseTwo_End()
 	et.G_Printf("The Upper Citadel is under attack!\n")
 	
+	LTFFlagOwner = TEAM_BLUE
+	et.SetModelindex(LTFFlagEnt, TEAM_BLUE)
+	LTFFlagLocked = 1
+	
 	UCGFlagOwner = TEAM_BLUE
 	et.SetModelindex(UCGFlagEnt, TEAM_BLUE)
 	UCGFlagLocked = 1
