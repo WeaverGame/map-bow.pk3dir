@@ -1,17 +1,16 @@
 models/mapobjects/terrain/bow_cliffs1a
 {
-    qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
+    qer_editorimage    models/mapobjects/terrain/rattycliff_d.jpg
     
-	diffusemap         models/mapobjects/terrain/rattycliff_d.png
+	diffusemap         models/mapobjects/terrain/rattycliff_d.jpg
 	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
 	bumpmap            models/mapobjects/terrain/rattycliff_na.png
 }
-
 models/mapobjects/terrain/bow_cliffs1b
 {
     qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
     
-	diffusemap         models/mapobjects/terrain/rattycliff_d.png
+	diffusemap         models/mapobjects/terrain/rattycliff_d.jpg
 	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
 	bumpmap            models/mapobjects/terrain/rattycliff_nb.png
 }
@@ -20,7 +19,35 @@ models/mapobjects/terrain/bow_cliffs1c
 {
     qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
     
-	diffusemap         models/mapobjects/terrain/rattycliff_d.png
+	diffusemap         models/mapobjects/terrain/rattycliff_d.jpg
+	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
+	bumpmap            models/mapobjects/terrain/rattycliff_nc.png
+}
+
+
+// I'm not sure why its looking in textures/, figure that out and delete these later
+textures/models/mapobjects/terrain/bow_cliffs1a
+{
+    qer_editorimage    models/mapobjects/terrain/rattycliff_d.jpg
+    
+	diffusemap         models/mapobjects/terrain/rattycliff_d.jpg
+	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
+	bumpmap            models/mapobjects/terrain/rattycliff_na.png
+}
+textures/models/mapobjects/terrain/bow_cliffs1b
+{
+    qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
+    
+	diffusemap         models/mapobjects/terrain/rattycliff_d.jpg
+	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
+	bumpmap            models/mapobjects/terrain/rattycliff_nb.png
+}
+
+textures/models/mapobjects/terrain/bow_cliffs1c
+{
+    qer_editorimage    models/mapobjects/terrain/rattycliff_d.png
+    
+	diffusemap         models/mapobjects/terrain/rattycliff_d.jpg
 	specularmap	    	models/mapobjects/terrain/rattycliff_s.png
 	bumpmap            models/mapobjects/terrain/rattycliff_nc.png
 }
