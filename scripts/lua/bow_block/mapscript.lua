@@ -228,7 +228,7 @@ end
 -- Final objective
 -- Flag
 
-function CapFlagUse(self, other, activator)
+function CapFlagTrigger(self, other, activator)
 	et.G_Printf("Objective Captured!\n")
 	et.G_Print("Blue team is the winner\n")
 	game.SetWinner(TEAM_BLUE)
