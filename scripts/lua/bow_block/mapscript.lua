@@ -162,8 +162,16 @@ function UCGFlagTouch(self, other)
 	
 	if (team==TEAM_RED) then
 		spawnGroupBlue = 2
-		
-		game.SpawnGroup(TEAM_BLUE, 2, 1)
+		-- UCGFlag was lost by blue, revert blue spawn to either LTFFlag or Original
+		if (LTFFlagOwner == TEAM_RED) then
+			-- Red owns LTFFlag, revert blue spawn to original
+			game.SpawnGroup(TEAM_BLUE, 1, 1)
+			game.SpawnGroup(TEAM_BLUE, 2, 0)
+		else
+			-- Blue must own LTFFlag, revert blue spawn to LTFFlag
+			game.SpawnGroup(TEAM_BLUE, 1, 0)
+			game.SpawnGroup(TEAM_BLUE, 2, 1)
+		end
 		game.SpawnGroup(TEAM_BLUE, 3, 0)
 		et.SetModelindex(self, TEAM_FREE)
 	else
@@ -171,6 +179,7 @@ function UCGFlagTouch(self, other)
 		
 		game.SpawnGroup(TEAM_BLUE, 3, 1)
 		game.SpawnGroup(TEAM_BLUE, 2, 0)
+		game.SpawnGroup(TEAM_BLUE, 1, 0)
 		et.SetModelindex(self, TEAM_BLUE)
 	end
 	
