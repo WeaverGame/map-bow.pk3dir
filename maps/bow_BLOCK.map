@@ -2,6 +2,7 @@ Version 2
 // entity 0
 {
 "classname" "worldspawn"
+"xmap_lightopts" "-fast -samples 2 -scale 1.6 -pointscale 1.8 -areascale 1.6 -gamma 1.35 -bounce 8 -lightmapsize 1024 -compensate 4 -dirty -dirtscale 0.4 -dirtdepth 64"
 "editor_drLastCameraPos" "4133.33 3527.91 171.507"
 "editor_drLastCameraAngle" "0.299899 175.465 0"
 // primitive 0
