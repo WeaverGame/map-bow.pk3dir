@@ -60,8 +60,13 @@ function LTFGateShieldTrigger(self, other)
 	et.G_Printf("The Lower Fortress Gate Shield has dissolved!\n")
 end
 
+LTFGateTrig = 0
 function LTFGateTrigger(self, other)
+	if (LTFGateTrig == 1) then
+		return 0
+	end
 	et.G_Printf("The Lower Fortress Gate has been destroyed!\n")
+	LTFGateTrig = 1
 	PhaseOne_End()
 end
 
@@ -206,8 +211,13 @@ function UCGateShieldTrigger(self, other)
 	et.G_Printf("The Upper Citadel Gate Shield has dissolved!\n")
 end
 
+UCGGateTrig = 0
 function UCGateTrigger(self, other)
+	if (UCGGateTrig == 1) then
+		return 0
+	end
 	et.G_Printf("The Upper Citadel Gate has been destroyed!\n")
+	UCGGateTrig = 1
 	PhaseTwo_End()
 end
 
