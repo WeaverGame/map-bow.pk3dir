@@ -20,7 +20,7 @@ UCGFlagEnt = -1
 
 -- called when game inits
 function et_InitGame( levelTime, randomSeed, restart )
-	--et.G_Printf("averwind Mapscript Loaded: et_InitGame")
+	--et.G_Printf("avewind Mapscript Loaded: et_InitGame")
 	--et.G_Printf("VMnum=%d VMname=mapscript\n", et.FindSelf())
 	et.RegisterModname("mapscript")
 	
