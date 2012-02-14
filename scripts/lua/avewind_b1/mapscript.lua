@@ -56,7 +56,11 @@ function LTFGateHurt(self, inflictor, attacker)
 	et.G_Printf("The Lower Fortress Gate is taking damage!\n")
 end
 
+LTFGateShieldTrig = 0
 function LTFGateShieldTrigger(self, other)
+	if (LTFGateShieldTrig == 1) then
+		return 0
+	end
 	et.G_Printf("The Lower Fortress Gate Shield has dissolved!\n")
 end
 
@@ -207,7 +211,11 @@ function UCGateHurt(self, inflictor, attacker)
 	et.G_Printf("The Upper Citadel Gate is taking damage!\n")
 end
 
+UCGateShieldTrig = 0
 function UCGateShieldTrigger(self, other)
+	if (UCGateShieldTrig == 1) then
+		return 0
+	end
 	et.G_Printf("The Upper Citadel Gate Shield has dissolved!\n")
 end
 
