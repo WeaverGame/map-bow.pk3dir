@@ -1,8 +1,3 @@
--- constants
-TEAM_FREE = 0
-TEAM_RED = 1
-TEAM_BLUE = 2
-
 -- printf wrapper
 function et.G_Printf(...)
 	et.G_Print(string.format(unpack(arg)))
@@ -20,8 +15,8 @@ UCGFlagEnt = -1
 
 -- called when game inits
 function et_InitGame( levelTime, randomSeed, restart )
-	--et.G_Printf("avewind Mapscript Loaded: et_InitGame")
-	--et.G_Printf("VMnum=%d VMname=mapscript\n", et.FindSelf())
+	et.G_Printf("avewind Mapscript Loaded: et_InitGame")
+	et.G_Printf("VMnum=%d VMname=mapscript\n", et.FindSelf())
 	et.RegisterModname("mapscript")
 	
 	spawnGroupBlue = 1
@@ -61,6 +56,7 @@ function LTFGateShieldTrigger(self, other)
 	if (LTFGateShieldTrig == 1) then
 		return 0
 	end
+	LTFGateShieldTrig = 1
 	et.G_Printf("The Lower Fortress Gate Shield has dissolved!\n")
 end
 
@@ -69,8 +65,8 @@ function LTFGateTrigger(self, other)
 	if (LTFGateTrig == 1) then
 		return 0
 	end
-	et.G_Printf("The Lower Fortress Gate has been destroyed!\n")
 	LTFGateTrig = 1
+	et.G_Printf("The Lower Fortress Gate has been destroyed!\n")
 	PhaseOne_End()
 end
 
@@ -216,6 +212,7 @@ function UCGateShieldTrigger(self, other)
 	if (UCGateShieldTrig == 1) then
 		return 0
 	end
+	UCGateShieldTrig = 1
 	et.G_Printf("The Upper Citadel Gate Shield has dissolved!\n")
 end
 
@@ -224,8 +221,8 @@ function UCGateTrigger(self, other)
 	if (UCGGateTrig == 1) then
 		return 0
 	end
-	et.G_Printf("The Upper Citadel Gate has been destroyed!\n")
 	UCGGateTrig = 1
+	et.G_Printf("The Upper Citadel Gate has been destroyed!\n")
 	PhaseTwo_End()
 end
 
