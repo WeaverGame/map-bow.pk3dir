@@ -15,8 +15,8 @@ UCGFlagEnt = -1
 
 -- called when game inits
 function et_InitGame( levelTime, randomSeed, restart )
-	et.G_Printf("avewind Mapscript Loaded: et_InitGame")
-	et.G_Printf("VMnum=%d VMname=mapscript\n", et.FindSelf())
+	--et.G_Printf("avewind Mapscript Loaded: et_InitGame")
+	--et.G_Printf("VMnum=%d VMname=mapscript\n", et.FindSelf())
 	et.RegisterModname("mapscript")
 	
 	spawnGroupBlue = 1
@@ -51,21 +51,11 @@ function LTFGateHurt(self, inflictor, attacker)
 	et.G_Printf("The Lower Fortress Gate is taking damage!\n")
 end
 
-LTFGateShieldTrig = 0
 function LTFGateShieldTrigger(self, other)
-	if (LTFGateShieldTrig == 1) then
-		return 0
-	end
-	LTFGateShieldTrig = 1
 	et.G_Printf("The Lower Fortress Gate Shield has dissolved!\n")
 end
 
-LTFGateTrig = 0
 function LTFGateTrigger(self, other)
-	if (LTFGateTrig == 1) then
-		return 0
-	end
-	LTFGateTrig = 1
 	et.G_Printf("The Lower Fortress Gate has been destroyed!\n")
 	PhaseOne_End()
 end
@@ -149,7 +139,6 @@ end
 
 --Upper Citadel Garden
 function UCGFlagTouch(self, other)
-	--et.G_Printf("UCGFlagTouch1 spawnGroupBlue=%d spawnGroupRed=%d\n", spawnGroupBlue, spawnGroupRed)
 	team = et.gentity_get(other, "sess.sessionTeam", 0)
 	
 	if (team == UCGFlagOwner or UCGFlagLocked == 1) then
@@ -207,21 +196,12 @@ function UCGateHurt(self, inflictor, attacker)
 	et.G_Printf("The Upper Citadel Gate is taking damage!\n")
 end
 
-UCGateShieldTrig = 0
 function UCGateShieldTrigger(self, other)
-	if (UCGateShieldTrig == 1) then
-		return 0
-	end
 	UCGateShieldTrig = 1
 	et.G_Printf("The Upper Citadel Gate Shield has dissolved!\n")
 end
 
-UCGGateTrig = 0
 function UCGateTrigger(self, other)
-	if (UCGGateTrig == 1) then
-		return 0
-	end
-	UCGGateTrig = 1
 	et.G_Printf("The Upper Citadel Gate has been destroyed!\n")
 	PhaseTwo_End()
 end
