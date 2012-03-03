@@ -15,12 +15,11 @@ UCGFlagEnt = -1
 
 -- called when game inits
 function et_InitGame( levelTime, randomSeed, restart )
-	--et.G_Printf("avewind Mapscript Loaded: et_InitGame")
+	--et.G_Printf("avewind Mapscript Loaded: et_InitGame :D\n")
 	--et.G_Printf("VMnum=%d VMname=mapscript\n", et.FindSelf())
 	et.RegisterModname("mapscript")
 	
 	spawnGroupBlue = 1
-	
 	game.SpawnGroup(TEAM_BLUE, 1, 1)
 	game.SpawnGroup(TEAM_BLUE, 2, 0)
 	game.SpawnGroup(TEAM_BLUE, 3, 0)
@@ -33,10 +32,12 @@ function et_InitGame( levelTime, randomSeed, restart )
 	game.SetDefender(TEAM_RED)	--Red is defending
 	game.SetTimeLimit(15)		--15 min
 	
-	LTFFlagOwner = TEAM_RED
+	LTFFlagOwner = (TEAM_RED)
 	LTFFlagLocked = 0
-	UCGFlagOwner = TEAM_FREE
+	UCGFlagOwner = (TEAM_FREE)
 	UCGFlagLocked = 0
+	
+	--et.G_Printf("LTFFlagOwner=%d LTFFlagLocked=%d\n", LTFFlagOwner, LTFFlagLocked)
 end
 
 --Lower Town Fortress
@@ -48,23 +49,24 @@ function LTFGateHurt(self, inflictor, attacker)
 		return 0
 	end
 	LTFGateHurtLast = game.Leveltime()
-	et.G_Printf("The Lower Fortress Gate is taking damage!\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Lower Fortress Gate is taking damage!")
 end
 
 function LTFGateShieldTrigger(self, other)
-	et.G_Printf("The Lower Fortress Gate Shield has dissolved!\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Lower Fortress Gate Shield has dissolved!")
 end
 
 function LTFGateTrigger(self, other)
-	et.G_Printf("The Lower Fortress Gate has been destroyed!\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Lower Fortress Gate has been destroyed!")
 	PhaseOne_End()
 end
 
 --Lower Town Fortress
 --Flag
 function LTFFlagTouch(self, other)
-	--et.G_Printf("LTFFlagTouch1 spawnGroupBlue=%d spawnGroupRed=%d\n", spawnGroupBlue, spawnGroupRed)
 	team = et.gentity_get(other, "sess.sessionTeam", 0)
+	--et.G_Printf("LTFFlagTouch1 spawnGroupBlue=%d spawnGroupRed=%d\n", spawnGroupBlue, spawnGroupRed)
+	--et.G_Printf("    locked=%d flagowner=%d team=%d\n", LTFFlagLocked, LTFFlagOwner, team)
 	
 	if (team == LTFFlagOwner or LTFFlagLocked == 1) then
 		return 0
@@ -76,11 +78,11 @@ function LTFFlagTouch(self, other)
 	
 	--et.G_Printf("LTFFlagTouch2 LTFFlagOwner=%d LTFFlagLocked=%d team=%d\n", LTFFlagOwner, LTFFlagLocked, team)
 	
-	et.G_Printf("The Lower Fortress Flag has been claimed by %d!\n", team)
 	LTFFlagOwner = team
 	et.SetModelindex(self, team)
 	
 	if (team==TEAM_RED) then
+		game.ObjectiveAnnounce(TEAM_RED, "The Lower Fortress Flag has been reclaimed by Red!")
 		spawnGroupBlue = 1
 		
 		game.SpawnGroup(TEAM_BLUE, 1, 1)
@@ -91,6 +93,7 @@ function LTFFlagTouch(self, other)
 		game.SpawnGroup(TEAM_RED, 1, 1)
 		game.SpawnGroup(TEAM_RED, 2, 0)
 	else
+		game.ObjectiveAnnounce(TEAM_BLUE, "The Lower Fortress Flag has been claimed by Blue!")
 		spawnGroupBlue = 2
 		
 		game.SpawnGroup(TEAM_BLUE, 2, 1)
@@ -110,7 +113,8 @@ function LTFFlagSpawn(self)
 end
 
 function PhaseOne_End()
-	et.G_Printf("The Lower Fortress has fallen!\n")
+	et.G_Printf("Phase One End\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Lower Fortress has fallen!")
 	
 	LTFFlagOwner = TEAM_BLUE
 	et.SetModelindex(LTFFlagEnt, TEAM_BLUE)
@@ -151,10 +155,10 @@ function UCGFlagTouch(self, other)
 	
 	--et.G_Printf("UCGFlagTouch2 UCGFlagOwner=%d UCGFlagLocked=%d team=%d\n", UCGFlagOwner, UCGFlagLocked, team)
 	
-	et.G_Printf("The Upper Citadel Garden Flag has been claimed by %d!\n", team)
 	UCGFlagOwner = team
 	
 	if (team==TEAM_RED) then
+		game.ObjectiveAnnounce(TEAM_RED, "The Upper Citadel Garden Flag has been deactivated by Red!")
 		spawnGroupBlue = 2
 		-- UCGFlag was lost by blue, revert blue spawn to either LTFFlag or Original
 		if (LTFFlagOwner == TEAM_RED) then
@@ -169,6 +173,7 @@ function UCGFlagTouch(self, other)
 		game.SpawnGroup(TEAM_BLUE, 3, 0)
 		et.SetModelindex(self, TEAM_FREE)
 	else
+		game.ObjectiveAnnounce(TEAM_BLUE, "The Upper Citadel Garden Flag has been claimed by Blue!")
 		spawnGroupBlue = 3
 		
 		game.SpawnGroup(TEAM_BLUE, 3, 1)
@@ -193,21 +198,21 @@ function UCGateHurt(self, inflictor, attacker)
 		return 0
 	end
 	UCGateHurtLast = game.Leveltime()
-	et.G_Printf("The Upper Citadel Gate is taking damage!\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Upper Citadel Gate is taking damage!")
 end
 
 function UCGateShieldTrigger(self, other)
 	UCGateShieldTrig = 1
-	et.G_Printf("The Upper Citadel Gate Shield has dissolved!\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Upper Citadel Gate Shield has dissolved!")
 end
 
 function UCGateTrigger(self, other)
-	et.G_Printf("The Upper Citadel Gate has been destroyed!\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Upper Citadel Gate has been destroyed!")
 	PhaseTwo_End()
 end
 
 function PhaseTwo_End()
-	et.G_Printf("The Upper Citadel is under attack!\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "The Upper Citadel is breached!")
 	
 	LTFFlagOwner = TEAM_BLUE
 	et.SetModelindex(LTFFlagEnt, TEAM_BLUE)
@@ -233,8 +238,8 @@ end
 -- Flag
 
 function CapFlagTrigger(self, other, activator)
-	et.G_Printf("Objective Captured!\n")
-	et.G_Print("Blue team is the winner\n")
+	game.ObjectiveAnnounce(TEAM_BLUE, "Objective Captured!")
+	et.G_Print("Blue team completed the objective.\n")
 	game.SetWinner(TEAM_BLUE)
 	et.G_Print("Ending the round\n")
 	game.EndRound()
